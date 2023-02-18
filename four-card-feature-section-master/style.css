@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    height:auto;
+    width:auto;
+    align-items: center;
+    justify-content: center; 
+    background-color: hsl(0, 0%, 98%);   
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    width:80vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top:5rem ;
+    margin-bottom:5rem ;
+}
+
+.text{
+    text-align: center;
+    padding:1rem 2rem ;
+}
+.text p.first {
+    font-size:1.5rem ;
+    color:rgba(46, 45, 45, 0.555);
+}
+
+.text h1{
+    font-weight: 600;
+    margin:0.5rem 0 1rem 0;
+    color:rgba(0, 0, 0, 0.753);
+}
+
+.text p.second{
+    color:rgb(151, 151, 151);
+    font-size: 0.9rem;
+}
+
+/* ! card */
+
+.cards{
+    display:flex;
+}
+
+.card{
+    padding:0.5rem 1rem;
+    margin:1rem 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    height:200px;
+    border-radius: 3px;
+    width:15rem;
+}
+
+h2{
+    padding:0.5rem 0;
+    color:rgba(0, 0, 0, 0.733);
+}
+
+p{
+    color:rgb(151, 151, 151);
+    font-size: 0.9rem;
+}
+
+img{
+    width:2rem;
+    padding-top:1rem;
+    position: relative;
+    float:right;
+}
+
+.turkuaz{
+    border-top:2px solid hsl(180, 62%, 55%);
+}
+.red{
+    border-top:2px solid hsl(0, 78%, 62%);
+}
+
+.orange{
+    border-top:2px solid hsl(34, 97%, 64%);
+}
+
+.blue{
+    border-top:2px solid hsl(212, 86%, 64%);
+}
+
+@media (max-width:575px){
+    .cards{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
